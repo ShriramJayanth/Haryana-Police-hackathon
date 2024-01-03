@@ -1,13 +1,134 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Play', sans-serif;
 }
+.SP-main{
+  background-color: #424769;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px
+}
+.SP-WelcomeNote{
+  font-size: 100px;
+  color: #7FC7D9;
+}
+.SP-name{
+  height:5vh;
+  width:20%;
+}
+.SP-button{
+  border:none;
+  padding: 20px 30px;
+  background-color: #1B4242;
+  color: white;
+}
+.FS-main{
+  background:url(./Assets/SCHOOL.avif);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FS-intro{
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  height:25vh;
+  width:35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+.FS-Hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:70px ;
+}
+.FS-hero img{
+  height:30px;
+  width:30px;
+}
+.FS-HeroDialogue{
+  margin-right: 550px;
+  font-weight: bolder;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+.FS-friend-dialogue{
+  font-weight: bolder;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 150px;
+}
+.FS-friend{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 234px;
+  margin-left: 350px;
+}
+.FS-friend img{
+  height:450px;
+  width:450px;
+}
+.SS-main{
+  background:url(./Assets/Home.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.TS-main{
+  background:url(./Assets/Room.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.TS-dialogue{
+  font-weight: bolder;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 500px;
+}
+.TS-main img{
+ margin-top: 189px;
+}
+.Option1{
+  font-weight: bolder;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.Option2{
+  font-weight: bolder;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }
